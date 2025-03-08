@@ -84,7 +84,7 @@ div{
 .conversation-item1 > input{
     width: 12vw;
     padding: 6px;
-    font-size: small;
+    font-size: x-small;
     color: grey;
     background-color: #1E1F22;
     border-radius: 2px;
@@ -221,14 +221,14 @@ div{
 .add-input > input{
     outline: none;
     border: none;
-    font-size: medium;
+    font-size: small;
     width: 25vw;
     padding: 6px;
     background-color: #1E1F22;
 }
 
 .add-input > button{
-    font-size: small;
+    font-size: x-small;
     padding: 8px;
     color: white;
     background-color: #7289da;
@@ -250,12 +250,12 @@ div{
     width: 25vw;
 }
 
-.content-2 > h2{
+.content-2 > h3{
     color: white;
 }
 
 .para-c-2{
     text-align: center;
     margin: 25px;
-    font-size: medium;
+    font-size: x-small;
 }
