@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#313338;
+    color: white;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+div{
+    font-size: small;
+    color: grey;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    width: 5vw;
+    background-color: #1E1F22;
+    align-items: center;
+    padding: 0 8px 8px 8px;
+}
+
+.sidebar-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.sidebar-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2f33;
+}
+
+.sidebar-icon:hover{
+    border-radius: 40%;
+    background-color: #7289da;
+}
+
+.sidebar-icon.active {
+    border-radius: 40%;
+    background-color: #7289da;
+}
+
+#discord-icon{
+    background-color: #7289da;
+}
+
+.sidebar-icon > img{
+    width: 40px;
+    height: 40px;
+}
+
+.conversation-list{
+    width: 14vw;
+    background-color: #2B2D31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conversation-item1{
+    padding: 0.5vw;
+    border-bottom: 1px solid #1E1F22;
+}
+
+.conversation-item1 > input{
+    width: 12vw;
+    padding: 6px;
+    font-size: small;
+    color: grey;
+    background-color: #1E1F22;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+
+
+.conversation-item2{
+    padding: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.ci2-item{
+    width: 12vw;
+    font-size: medium;
+    color: grey;
+    padding: 6px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.ci2-item:hover{
+    background-color: grey;
+    color: white;
+}
+
+.conversation-item3{
+    padding: 0.5vw;
+}
+
+.ci3-header{
+    width: 12vw;
+    color: gray;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ci3-header > span{
+    cursor: pointer;
+}
+
+.ci3-header > div:hover{
+    color: white;
+}
+
+.main{
+    width: 82vw;
+}
+
+.nav-bar{
+    border-bottom: 1px solid  #1E1F22;
+    display: flex;
+    padding: 0.3vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item1{
+    display: flex;
+    gap: 10px;
+}
+
+.item1-head{
+    border-right: 1px solid grey;
+    padding-right: 5px;
+    color: white;
+    font-size: medium;
+}
+
+#add-friend{
+    color: green;
+}
+
+.nav{
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.nav > div{
+    font-size: medium;
+}
+
+.nav>div:hover{
+    background-color: grey;
+    color: white;
+    border-radius: 2px;
+}
+
+.nav-icon{
+    display: flex;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+}
+
+.content-1{
+    padding: 20px;
+    width: 58vw;
+}
+
+.content-1 .div1{
+    border-bottom: 1px solid grey;
+}
+
+.add {
+    font-size: medium;
+}
+
+.add > p{
+    margin-bottom: 12px;
+    color: white;
+}
+
+.add  > div{
+    margin-bottom: 12px;
+}
+
+.add-input{
+    background-color: #1E1F22;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.add-input > input{
+    outline: none;
+    border: none;
+    font-size: medium;
+    width: 25vw;
+    padding: 6px;
+    background-color: #1E1F22;
+}
+
+.add-input > button{
+    font-size: small;
+    padding: 8px;
+    color: white;
+    background-color: #7289da;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.content-1-img{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content-2{
+    border-left: 1px solid grey;
+    padding: 20px;
+    height: 94vh;
+    width: 25vw;
+}
+
+.content-2 > h2{
+    color: white;
+}
+
+.para-c-2{
+    text-align: center;
+    margin: 25px;
+    font-size: medium;
+}
